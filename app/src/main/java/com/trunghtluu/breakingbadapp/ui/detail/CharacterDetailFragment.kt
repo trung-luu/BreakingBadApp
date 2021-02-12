@@ -37,10 +37,10 @@ class CharacterDetailFragment: Fragment() {
             .override(500, 500)
             .into(characterImage)
         characterName.text = character.name
-        characterOccupation.text = character.occupation?.joinToString(",")
+        characterOccupation.text = character.occupation?.joinToString(", ")
         characterStatus.text = character.status
         characterNickname.text = character.nickname
-        characterAppearance.text = character.appearance?.joinToString(",")
+        characterAppearance.text = character.appearance?.joinToString(", ")
     }
 
     override fun onCreateView(

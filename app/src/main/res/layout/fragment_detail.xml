@@ -43,6 +43,7 @@
         android:layout_height="wrap_content"
         android:layout_width="0dp"
         android:padding="4dp"
+        android:minLines="2"
         app:layout_constraintTop_toBottomOf="@id/tvNameTitle"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toStartOf="@id/tvOccupationValue"/>
@@ -54,6 +55,7 @@
         android:layout_height="wrap_content"
         android:layout_width="0dp"
         android:padding="4dp"
+        android:minLines="2"
         app:layout_constraintTop_toBottomOf="@id/tvNameValue"
         app:layout_constraintStart_toEndOf="@id/tvOccupationTitle"
         app:layout_constraintEnd_toEndOf="parent"/>
